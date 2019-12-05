@@ -1,0 +1,23 @@
+div.confirm-overlay {
+  /*
+  --splash-background: #3880ff;  
+  --splash-opacity: 1;
+*/
+  /*opacity: var(--splash-opacity);
+  background: var(--splash-background);*/
+  background: white;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed; }
+
+.mt-16 {
+  margin-top: 16px; }
+
+ion-button {
+  --background: #ff003c;
+  --color: #fff;
+  --background-activated: #ff2357;
+  --background-hover: #ff2357; }

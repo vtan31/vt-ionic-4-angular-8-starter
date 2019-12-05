@@ -1,0 +1,11 @@
+<div class="confirm-overlay" #confirmOverlay fxLayout="row" fxLayoutAlign="space-around stretch">
+
+    <div fxLayout="column" fxLayoutAlign="center center">
+        <div>
+            <ng-content></ng-content>
+        </div>
+        <div *ngIf="text">{{text}}</div>
+        <ion-button *ngIf="!hideButton" class="mt-16" size="large" (click)="onOkClick();">{{buttonText}}</ion-button>
+    </div>
+
+</div>
